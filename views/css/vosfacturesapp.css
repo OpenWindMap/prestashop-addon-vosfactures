@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'vosfacturesapp';
+  src: url("../fonts/vosfacturesapp.eot?vfb09m");
+  src: url("../fonts/vosfacturesapp.eot?vfb09m#iefix") format("embedded-opentype"), url("../fonts/vosfacturesapp.ttf?vfb09m") format("truetype"), url("../fonts/vosfacturesapp.woff?vfb09m") format("woff"), url("../fonts/vosfacturesapp.svg?vfb09m#vosfacturesapp") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.icon-fakturownia-logo:before {
+  font-family: 'vosfacturesapp' !important;
+  content: "\e901"; }

@@ -1,0 +1,145 @@
+2.4.14
+- Fix for Prestashop 8
+- Order message on invoice
+
+2.4.13
+- Fix for billing service
+
+2.4.12
+- Fix for database connection problem
+
+2.4.11
+- Support for "FastBay"
+
+2.4.10
+- Fix for module-lib-billing backward compatibility
+
+2.4.9
+- Security update
+- Add option to manually create an invoice regardless of the order status
+- Fix for CSS map error message
+
+2.4.8
+- Fix for PDF override
+- Fix for error message
+
+2.4.7
+- Add option to auto-recognize OSS sales
+- Fix for module "Options, Frais et Réductions"
+- Add option to show order private note on invoices
+- Add option to show product description from VosFactures on invoices
+
+2.4.6
+- Fix for discount_is_present
+- Fix for module "Options, Frais et Réductions"
+
+2.4.5
+- Improvement of hyperlinks on module configuration page
+
+2.4.4
+- Add compatibility with module "Options, Frais et Réductions"
+
+2.4.3
+- Fix for switching tab
+- Update of tooltips on module configuration page
+
+2.4.2
+- Add compatibility for PrestaShop 1.7.7
+
+2.4.1
+- Fix for multistore configuration
+
+2.4.0
+- Update of plugin logo
+- Add option to "Include delivery date on invoice"
+
+2.3.9
+- Fix for free discount
+- Fix for Overriding Order
+- Fix for option "Automatically issue a document when"
+
+2.3.8
+- Fix for plugin upgrade
+- Add feature to automatically try to issue invoice in case of failure
+- Add message in case of errors on orders page
+
+2.3.7
+- Fix for greek lang symbol
+- Add feature of paid date based on order in case of manual invoice creation
+- Fix for issue date in case of manual invoice creation
+- Add option "Automatically issue a document when"
+- Add feature to not include discount on free shipment on invoices
+- Fix discount and free shipping bug
+
+2.3.6
+- Add new translations
+- improvements in json script
+
+2.3.5
+- Add option "invoice category"
+- Add option "override carrier name"
+- Add option "use carrier name in invoices"
+- Add option to choose buyer name (Company / Full name / Both) on invoices
+- Improvements of error logs (new error column with details)
+- Fix for mobile phone
+- logs updated fields in configuration
+- Add more logging on database insert/delete/update
+
+
+2.3.2
+- Remove preprocessing
+- Fix for issuing new status
+
+2.3.1
+- Fix for discount - delivery specific
+
+2.3.0
+- Add feature if discounts_value == products_value, then discount won't be applied to delivery fee
+- Add compatibility for front office view support for PS 1.7 in VosFactures
+
+2.2.9
+- Fix for discounts free shipment
+
+2.2.8
+- fields upgrade
+- Remove most of preprocessing
+- Add two hooks in PS1.6 - back office view on order
+
+2.2.7
+- Improvement of discounts
+
+2.2.6
+- Fix for gift wrapping option
+- Change of controller
+
+2.2.5
+- api_url as const
+- Add values yes/no in disabled fields configuration options
+
+2.2.4
+- Add missing translations
+- Add compatibility for PayPal Module
+- Fix for Multiple requests
+- Fix for gender from order
+- Fix for discounts
+- Fix for Logger
+
+2.2.3
+- Add option for delivery
+- Fix for backward compatibility,
+
+2.2.2
+- Add additional_fields usage
+- Add option "fill_default_descriptions"
+- Add option to issue issue estimate
+
+2.2.1
+- Fix for api_token
+- Add debug view
+- Fix for testIntegration3 and "account not pro" error not displaying
+
+2.2.0
+- Update translation for shipping and include_free_shipment in french
+- Minor changes in compilation script
+
+
